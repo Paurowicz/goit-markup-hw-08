@@ -39,180 +39,9 @@
   align-items: center;
 }
 
-@media screen and (min-width: 768px) {
-  .header {
-    border-bottom: 1px solid #ececec;
-    padding: 16px 0px;
-  }
-
-  .menu {
-    display: flex;
-    text-decoration: none;
-    list-style-type: none;
-    justify-content: space-between;
-    align-items: center;
-    gap: 60px;
-  }
-  .mobile-header {
-    display: none;
-  }
-
-  .main-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 60px;
-  }
-
-  .nav-contacts {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: left;
-  }
-
-  .webstudio {
-    font-family: "Raleway";
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: #2196f3;
-    text-decoration: none;
-    display: flex;
-  }
-
-  .studio-h {
-    color: #212121;
-  }
-
-  .studio-f {
-    color: #ffffff;
-  }
-
-  .links {
-    text-decoration: none;
-    list-style-type: none;
-    color: #212121;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-  }
-
-  .mail-h {
-    text-decoration: none;
-    color: #757575;
-    fill: #757575;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-  }
-
-  .mail-icon {
-    height: 16px;
-    width: 21px;
-    vertical-align: middle;
-    margin-bottom: 3px;
-  }
-
-  .tel {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: #757575;
-    fill: #757575;
-    text-decoration: none;
-  }
-
-  .tel-icon {
-    height: 16px;
-    width: 24px;
-    vertical-align: middle;
-    margin-bottom: 3px;
-  }
-
-  .tel:hover,
-  .tel:focus {
-    color: #2196f3;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  .tel:hover svg,
-  .tel:focus svg {
-    fill: #2196f3;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  .links:hover,
-  .links:focus {
-    color: #2196f3;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  .links-special {
-    color: #2196f3;
-    text-decoration: none;
-    list-style-type: none;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-  }
-
-  .mail-h:hover,
-  .mail-h:focus {
-    color: #2196f3;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  .mail-h:hover svg,
-  .mail-h:focus svg {
-    fill: #2196f3;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  .underline-special {
-    position: relative;
-  }
-
-  .underline-special::before {
-    content: "";
-    position: absolute;
-    width: 53px;
-    height: 4px;
-    border-radius: 2px;
-    background-color: #2196f3;
-    display: block;
-    margin-top: 46px;
-    transform: translateY(0);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  .underline {
-    position: relative;
-  }
-
-  .underline:hover::after {
-    content: "";
-    position: absolute;
-    width: 53px;
-    height: 4px;
-    border-radius: 2px;
-    background-color: #2196f3;
-    display: block;
-    margin-top: 28px;
-    transform: translateY(0);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-}
-
 @media screen and (min-width: 1200px) {
   .header {
     border-bottom: 1px solid #ececec;
-    padding: 0px;
   }
 
   .menu {
@@ -228,14 +57,12 @@
 
   .main-nav {
     display: flex;
-    flex-direction: row;
     margin: 24px 0 25px 0;
     gap: 93px;
   }
 
   .nav-contacts {
     display: flex;
-    flex-direction: row;
     gap: 50px;
     align-items: center;
     margin-left: 238px;
