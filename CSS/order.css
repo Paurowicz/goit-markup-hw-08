@@ -1,0 +1,64 @@
+.s1 {
+  background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/tlo_mobile.png);
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 480px;
+  margin-right: 0px;
+}
+
+.h1 {
+  /* width: 696px; */
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.36;
+  color: #ffffff;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.button-main-page {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  cursor: pointer;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  margin-top: 30px;
+}
+
+.button-text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .s1 {
+    background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url(../images/tlo.jpg);
+    max-width: 768px;
+  }
+
+  .h1 {
+    width: 696px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .s1 {
+    max-width: 1600px;
+  }
+}

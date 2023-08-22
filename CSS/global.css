@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+  margin: 0 auto;
+}
+img {
+  display: block;
+}
+
+.container {
+  max-width: 480px;
+  /* width: 100%; */
+  padding: 0 15px;
+  /* box-sizing: border-box; */
+  margin: 0 auto;
+}
+
+.section {
+  padding: 60px 0;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .section {
+    padding: 22px 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+  .section {
+    padding: 94px 0;
+  }
+}

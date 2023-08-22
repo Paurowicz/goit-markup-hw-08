@@ -1,0 +1,59 @@
+.sec3 {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .sec3 {
+    display: block;
+    padding: 94px 0 94px 0;
+  }
+
+  .offer {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+
+    text-align: center;
+  }
+
+  .ul-main2 {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding-left: 0px;
+  }
+
+  .img-sec-3 {
+    float: left;
+
+    position: relative;
+  }
+
+  .text-img-sec-3 {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 27px 90px 27px 90px;
+    text-align: center;
+    top: 88%;
+    left: 50%;
+    font-size: 20px;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  .text-sec-3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+}
