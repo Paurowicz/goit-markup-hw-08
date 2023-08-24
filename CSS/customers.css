@@ -64,7 +64,7 @@
   }
 
   .icons-2 {
-    width: 170px;
+    width: 230px;
     height: 92px;
 
     fill: #afb1b8;
@@ -75,7 +75,7 @@
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    gap: 30px;
+    gap: 10px;
   }
 
   .company {

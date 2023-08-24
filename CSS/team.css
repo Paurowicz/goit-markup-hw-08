@@ -109,8 +109,8 @@
     margin-bottom: 30px;
   }
   .team-img {
-    width: 450px;
-    height: 460px;
+    width: 350px;
+    height: 360px;
   }
 
   .team-links {
@@ -163,6 +163,8 @@
   .ul-main {
     list-style-type: none;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding-left: 0px;
   }

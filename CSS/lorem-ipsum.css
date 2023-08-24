@@ -63,9 +63,13 @@
     list-style-type: none;
   }
 
+  .help-sec {
+    max-width: 350px;
+  }
+
   .icons-1 {
     height: 120px;
-    width: 270px;
+    width: 350px;
 
     background: #f5f4fa;
     border-radius: 4px;
@@ -100,6 +104,10 @@
     list-style-type: none;
 
     gap: 30px;
+  }
+
+  .help-sec {
+    width: 270px;
   }
 
   .icons-1 {

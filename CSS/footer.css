@@ -228,6 +228,7 @@
   .description-f {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .text-socialmedia {
