@@ -99,8 +99,6 @@
   }
 
   .ul-main1 {
-    flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: space-between;
     list-style-type: none;
 
@@ -108,7 +106,7 @@
   }
 
   .help-sec {
-    width: 250px;
+    max-width: 270px;
   }
 
   .icons-1 {
