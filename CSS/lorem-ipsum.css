@@ -26,16 +26,56 @@
 
 .icons-1 {
   height: 120px;
-  width: 450px;
+  width: 360px;
 
   background: #f5f4fa;
   border-radius: 4px;
-  padding: 25px 190px 25px 190px;
+  padding: 25px 0px 25px 0px;
   margin-bottom: 30px;
 }
 
 .sec2 {
   padding: 94px 0 0 0;
+}
+
+@media screen and (min-width: 768px) {
+  .Lorem-P {
+    font-size: 14px;
+    line-height: 1.71;
+    color: #757575;
+    letter-spacing: 0.03em;
+    text-align: left;
+  }
+
+  .Ipsum-h {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+
+  .ul-main1 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+
+  .icons-1 {
+    height: 120px;
+    width: 270px;
+
+    background: #f5f4fa;
+    border-radius: 4px;
+    padding: 25px 100px 25px 100px;
+    margin-bottom: 30px;
+  }
+
+  .sec2 {
+    padding: 94px 0 0 0;
+  }
 }
 
 @media screen and (min-width: 1200px) {

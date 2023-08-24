@@ -8,7 +8,7 @@
   flex-flow: column;
   align-items: center;
   max-width: 480px;
-  margin-right: 0px;
+  margin: 0 auto;
 }
 
 .h1 {
@@ -46,7 +46,7 @@
   .s1 {
     background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url(../images/tlo.jpg);
-    max-width: 768px;
+    max-width: 1199px;
   }
 
   .h1 {
