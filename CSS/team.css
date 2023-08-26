@@ -8,8 +8,10 @@
 }
 
 .team-img {
-  max-width: 360px;
+  max-width: auto;
+  width: 360px;
   height: 450px;
+
   justify-content: center;
   align-items: center;
 }
